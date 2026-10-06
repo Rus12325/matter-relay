@@ -1,0 +1,25 @@
+# PlatformIO / ESP-IDF
+.pio/
+build/
+sdkconfig.esp32-c6-supermini
+sdkconfig.esp32c6
+
+# Managed components pulled by the IDF component manager
+managed_components/
+dependencies.lock
+
+# Vendored upstream Arduino libraries (esp32 core 3.3.10) - see README
+lib/Matter/
+lib/Network/
+
+# Large SDK archives downloaded by hand
+*.zip
+
+# Local secrets
+src/secrets.h
+
+# Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
